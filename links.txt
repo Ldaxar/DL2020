@@ -1,0 +1,3 @@
+1. Kaggle source: https://www.kaggle.com/kazanova/sentiment140
+2. Report link: https://docs.google.com/document/d/1veki-zFotT57T7-v-KU8cVTxlImFPQ57t8i8vBhu9eM/edit?usp=sharing
+
