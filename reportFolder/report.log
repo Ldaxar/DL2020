@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.4.15)  7 MAY 2020 03:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.4.15)  8 MAY 2020 00:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -270,8 +270,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box27
 \@float@everytoks=\toks21
 \@floatcapt=\box28
-)
-No file report.aux.
+) (./report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
@@ -290,6 +289,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
 LaTeX Font Info:    ... okay on input line 74.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 74
 .
+
 (/usr/share/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
@@ -372,6 +372,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 74.
 LaTeX Info: Redefining \pageref on input line 74.
 LaTeX Info: Redefining \nameref on input line 74.
+ (./report.out) (./report.out)
 \@outlinefile=\write3
 \openout3 = `report.out'.
 
@@ -386,8 +387,7 @@ LaTeX Info: Redefining \showhyphens on input line 74.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-
-(/usr/share/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+ (/usr/share/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -466,7 +466,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 Underfull \vbox (badness 6380) has occurred while \output is active []
 
  [2]
-<./graphics/Length.PNG, id=21, 598.48593pt x 291.33844pt>
+<./graphics/Length.PNG, id=88, 598.48593pt x 291.33844pt>
 File: ./graphics/Length.PNG Graphic file (type png)
 <use ./graphics/Length.PNG>
 Package pdftex.def Info: ./graphics/Length.PNG  used on input line 232.
@@ -475,7 +475,7 @@ Package pdftex.def Info: ./graphics/Length.PNG  used on input line 232.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-<./graphics/Frequency.PNG, id=33, 593.21625pt x 295.1025pt>
+<./graphics/Frequency.PNG, id=94, 593.21625pt x 295.1025pt>
 File: ./graphics/Frequency.PNG Graphic file (type png)
 <use ./graphics/Frequency.PNG>
 Package pdftex.def Info: ./graphics/Frequency.PNG  used on input line 252.
@@ -501,7 +501,7 @@ l.265 T
 
 LaTeX Warning: Reference `others' on page 5 undefined on input line 284.
 
-<./graphics/CNN.png, id=42, 740.7675pt x 263.98625pt>
+<./graphics/CNN.png, id=103, 740.7675pt x 263.98625pt>
 File: ./graphics/CNN.png Graphic file (type png)
 <use ./graphics/CNN.png>
 Package pdftex.def Info: ./graphics/CNN.png  used on input line 298.
@@ -511,7 +511,7 @@ Overfull \hbox (2.5235pt too wide) in paragraph at lines 298--299
  [][] 
  []
 
-<./graphics/RNN.png, id=43, 603.25375pt x 304.13625pt>
+<./graphics/RNN.png, id=104, 603.25375pt x 304.13625pt>
 File: ./graphics/RNN.png Graphic file (type png)
 <use ./graphics/RNN.png>
 Package pdftex.def Info: ./graphics/RNN.png  used on input line 323.
@@ -539,28 +539,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 381.
  (./report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 381.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 381.
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: AE3D71A6460F3BDCAA6C5FE5F7D5955B;1092.
 
-
-Package rerunfilecheck Warning: File `report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `report.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  AE3D71A6460F3BDCAA6C5FE5F7D5955B;1092.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 381.
  ) 
 Here is how much of TeX's memory you used:
- 8145 strings out of 492167
- 122938 string characters out of 6131558
- 252104 words of memory out of 5000000
- 12261 multiletter control sequences out of 15000+600000
+ 8170 strings out of 492167
+ 123259 string characters out of 6131558
+ 252133 words of memory out of 5000000
+ 12280 multiletter control sequences out of 15000+600000
  31284 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  33i,8n,42p,239b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -568,10 +559,10 @@ Here is how much of TeX's memory you used:
 exmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/public
 /cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
 </usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on report.pdf (7 pages, 150068 bytes).
+Output written on report.pdf (7 pages, 151198 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 145 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
  30 named destinations out of 1000 (max. 500000)
- 14869 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 15013 words of extra memory for PDF output out of 17280 (max. 10000000)
 
