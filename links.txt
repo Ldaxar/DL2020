@@ -2,3 +2,4 @@
 2. Report link: https://docs.google.com/document/d/1veki-zFotT57T7-v-KU8cVTxlImFPQ57t8i8vBhu9eM/edit?usp=sharing
 3.Vectorized tweets: https://drive.google.com/open?id=18smtUq8PjLiiHREXNbdLiA93vc61yTQf
 4. Processed tweets but not vectorized: https://drive.google.com/open?id=1-3lesjyVd1gGnjJGz_cipqO8CNeiTiPx
+5. GloVe pre-trained word embeddings: http://nlp.stanford.edu/data/glove.6B.zip
