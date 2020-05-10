@@ -18,6 +18,12 @@ Before running any of the code, download the data files through the following li
 2. [Processed tweets but not vectorized](https://drive.google.com/open?id=1-3lesjyVd1gGnjJGz_cipqO8CNeiTiPx)
 3. [GloVe pre-trained word embeddings](http://nlp.stanford.edu/data/glove.6B.zip)
 
+### BaseModels.ipynb
+Before this can be run, "vec.csv" must exist in data folder. "vec.csv" can be downloaded from the link above, or generated from sentiment_analysis.ipynb.
+Both Hashed and non-hashed data can be obtained by following the instruction in sentiment_analysis.ipynb. 
+Base dataset should also be present in data folder. 
+Cells should be run sequentially, and will generate result graphs seen in fig.1 of report. 
+
 ### NN.ipynb
 Before you can start creating, training or evaluating a model, run the first two cells in the notebook. 
 This will run all the import and import the twitter data.
