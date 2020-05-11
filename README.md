@@ -5,11 +5,9 @@ Kaggle source: Kaggle source: https://www.kaggle.com/kazanova/sentiment140
 ## Structure
 - data: this folder stores all the external data used by the notebooks
 - models: contains the latest versions of our trained neural network models
+- pre_processing.ipynb: Contains the code for pre-processing the raw twitter data
+- BaseModels.ipynb: Contains the code for creating the baseline models
 - NN.ipynb: Contains the code for creating, training and testing Models
-- pre_processing.ipynb: 
-- SmallModels.ipynb: 
-- SVM.ipynb:
-
 
 ## Usage
 Before running any of the code, download the data files through the following links
