@@ -6,7 +6,7 @@ Kaggle source: Kaggle source: https://www.kaggle.com/kazanova/sentiment140
 - data: this folder stores all the external data used by the notebooks
 - models: contains the latest versions of our trained neural network models
 - NN.ipynb: Contains the code for creating, training and testing Models
-- sentiment_analysis.ipynb: 
+- pre_processing.ipynb: 
 - SmallModels.ipynb: 
 - SVM.ipynb:
 
@@ -18,10 +18,14 @@ Before running any of the code, download the data files through the following li
 2. [Processed tweets but not vectorized](https://drive.google.com/open?id=1-3lesjyVd1gGnjJGz_cipqO8CNeiTiPx)
 3. [GloVe pre-trained word embeddings](http://nlp.stanford.edu/data/glove.6B.zip)
 
+## Data set up
+Before running experiments put base dataset with tweets into data/training.1600000.processed.noemoticon.csv.
+Once data is in place, run all steps in pre_processing notebook. Be careful with last two cells of the notebook.
+They are extremely taxing on memory, so it is advised to run only one of the two vectorization techniques.
+
 ### BaseModels.ipynb
-Before this can be run, "vec.csv" must exist in data folder. "vec.csv" can be downloaded from the link above, or generated from sentiment_analysis.ipynb.
-Both Hashed and non-hashed data can be obtained by following the instruction in sentiment_analysis.ipynb. 
-Base dataset should also be present in data folder. 
+Before this can be run, "vec.csv" must exist in data folder. "vec.csv" can be downloaded from the link above, or generated from pre_processing.ipynb.
+Both Hashed and non-hashed data can be obtained by following the instruction in pre_processing.ipynb. 
 Cells should be run sequentially, and will generate result graphs seen in fig.1 of report. 
 
 ### NN.ipynb
